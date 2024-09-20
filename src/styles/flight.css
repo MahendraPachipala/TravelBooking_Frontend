@@ -1,0 +1,65 @@
+/* flight.css */
+
+.flights {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .flight-filters {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .flight-filters input {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .flight-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .flight-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .flight-item div{
+    margin:20px 30px;
+  }
+
+  .flight-item:hover {
+    transform: scale(1.005);
+  }
+  
+  .flight-item p {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 8px;
+    white-space: nowrap; 
+  }
+  
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,49 @@
+/* About.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+  
+  /* About Page Styles */
+  .about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .about-text {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .services-section,
+  .mission-section,
+  .contact-section {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Optional: Add more styling based on your design preferences */
+  
